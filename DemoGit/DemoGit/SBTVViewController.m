@@ -26,7 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (IBAction)coolButtonAction:(id)sender {
+    NSLog(@"Do something!!!!! BITCH!!!!!!!!");
+}
 
 -(void)somethingMagicHereWith:(NSNumber *)number1 AndNumber2:(NSNumber *)number2 {
     
