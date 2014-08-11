@@ -21,6 +21,7 @@
 		817E473619991FE000B29797 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817E471819991FE000B29797 /* UIKit.framework */; };
 		817E473E19991FE000B29797 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817E473C19991FE000B29797 /* InfoPlist.strings */; };
 		817E474019991FE000B29797 /* DemoGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 817E473F19991FE000B29797 /* DemoGitTests.m */; };
+		81EBDB001999836200CFFD57 /* 1645796.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81EBDAFF1999836200CFFD57 /* 1645796.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		817E473B19991FE000B29797 /* DemoGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoGitTests-Info.plist"; sourceTree = "<group>"; };
 		817E473D19991FE000B29797 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		817E473F19991FE000B29797 /* DemoGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoGitTests.m; sourceTree = "<group>"; };
+		81EBDAFF1999836200CFFD57 /* 1645796.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1645796.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		817E471A19991FE000B29797 /* DemoGit */ = {
 			isa = PBXGroup;
 			children = (
+				81EBDAFF1999836200CFFD57 /* 1645796.jpg */,
 				817E472319991FE000B29797 /* SBTVAppDelegate.h */,
 				817E472419991FE000B29797 /* SBTVAppDelegate.m */,
 				817E472619991FE000B29797 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EBDB001999836200CFFD57 /* 1645796.jpg in Resources */,
 				817E472D19991FE000B29797 /* Images.xcassets in Resources */,
 				817E471F19991FE000B29797 /* InfoPlist.strings in Resources */,
 				817E472819991FE000B29797 /* Main.storyboard in Resources */,
@@ -457,6 +461,7 @@
 				817E474519991FE000B29797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		817E474619991FE000B29797 /* Build configuration list for PBXNativeTarget "DemoGitTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				817E474819991FE000B29797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

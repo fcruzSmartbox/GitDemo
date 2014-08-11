@@ -38,6 +38,10 @@
                                     <action selector="coolButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gYO-kj-e5s"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1645796.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jlb-H4-qcc">
+                                <rect key="frame" x="40" y="286" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -51,6 +55,9 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="1645796.jpg" width="2880" height="1800"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
