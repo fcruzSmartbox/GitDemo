@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *coolButton;
 
 
+//Esta funcion se llama por el boton!!
 - (IBAction)coolButtonAction:(id)sender;
 
 @end
