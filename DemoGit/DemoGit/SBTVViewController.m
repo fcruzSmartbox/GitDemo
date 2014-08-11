@@ -26,4 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+-(void)somethingMagicHereWith:(NSNumber *)number1 AndNumber2:(NSNumber *)number2 {
+    
+    NSInteger total = [number1 integerValue] + [number2 integerValue];
+    
+    [[[UIAlertView alloc] initWithTitle:@"Cool Bro!" message:[NSString stringWithFormat:@"How about this! %d", total] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+    
+}
 @end
