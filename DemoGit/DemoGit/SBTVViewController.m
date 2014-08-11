@@ -27,7 +27,16 @@
 }
 
 - (IBAction)coolButtonAction:(id)sender {
-    NSLog(@"Do something!!!!! BITCH!!!!!!!!");
+    
+    //TODO: Validate
+    NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+    [f setNumberStyle:NSNumberFormatterDecimalStyle];
+    
+    NSNumber *n1 = [f numberFromString:self.textBox1.text];
+    NSNumber *n2 = [f numberFromString:self.textBox2.text];
+    
+    [self somethingMagicHereWith:n1 AndNumber2:n2];
+    
 }
 
 -(void)somethingMagicHereWith:(NSNumber *)number1 AndNumber2:(NSNumber *)number2 {
