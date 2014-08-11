@@ -28,12 +28,24 @@
 
 - (IBAction)coolButtonAction:(id)sender {
     
-    //TODO: Validate
     NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
     [f setNumberStyle:NSNumberFormatterDecimalStyle];
     
     NSNumber *n1 = [f numberFromString:self.textBox1.text];
     NSNumber *n2 = [f numberFromString:self.textBox2.text];
+    
+    if (n1 == nil) {
+        [[[UIAlertView alloc] initWithTitle:@"Not Cool Bro!" message:[NSString stringWithFormat:@"The string '%@' is not a number", self.textBox1.text] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+        
+        return;
+    }
+    
+    if (n2 == nil) {
+        [[[UIAlertView alloc] initWithTitle:@"Not Cool Bro!" message:[NSString stringWithFormat:@"The string '%@' is not a number", self.textBox2.text] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] show];
+        
+        return;
+    }
+    
     
     [self somethingMagicHereWith:n1 AndNumber2:n2];
     
